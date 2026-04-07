@@ -32,16 +32,25 @@ rebel.xml
 nbproject/private/
 build/*
 nbbuild/
-dist/
 nbdist/
 .nb-gradle/
+
+### SpecKit ###
+.specify
 
 ######################################################################
 # Others
 *.log
+*.log.gz
 *.xml.versionsBackup
 *.swp
 
 !*/build/*.java
 !*/build/*.html
 !*/build/*.xml
+
+.flattened-pom.xml
+
+######################################################################
+# Test Tmp Folder
+tests/
